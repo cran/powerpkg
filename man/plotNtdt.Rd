@@ -2,7 +2,7 @@
 \alias{plotNtdt}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{ A function for plotting the results from ntdt.q } 
-\description{
+\description{ This function plots the results from ntdt.q
 
 }
 \usage{

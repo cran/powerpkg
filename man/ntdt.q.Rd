@@ -3,7 +3,6 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Computes power of a TDT study as a function of the susceptibility
 allele frequency q. }
- }
 \description{
 
 Power for a TDT study will be highest when the frequency of the
