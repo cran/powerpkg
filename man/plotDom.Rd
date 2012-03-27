@@ -17,8 +17,6 @@ plotDom(lsib = 1.2, alpha = 0.001, power = 0.85,...)
 under the (ideal) chosen conditions and parameters. }
   \item{...}{additional arguments for plot }
 }
-\details{
-}
 \value{
   Creates a plot, and returns a table of the data 
 that generated the plot.  In this table, the first column
@@ -31,7 +29,6 @@ the desired power.
  families will have exactly two affected sibpairs; and that (2) the
  identity-by-descent status in the ASPs can be determined unambiguously
 }
-\references{ }
 \author{ Daniel E. Weeks }
 \note{ These are based on a Mathematica notebook created by Martin Farrall. }
 

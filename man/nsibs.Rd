@@ -37,7 +37,6 @@ under the chosen study design. }
  identity-by-descent status in the ASPs can be determined unambiguously
 }
 
-\references{ }
 \author{ Daniel E. Weeks }
 \note{ These are based on a Mathematica notebook created by Martin Farrall. }
 

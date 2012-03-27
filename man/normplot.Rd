@@ -17,8 +17,6 @@ the mean under the alternative hypothesis using the slider.
 normplot()
 }
 %- maybe also 'usage' for other objects documented here.
-\arguments{
-}
 \details{
 This is a modified version of the 'tkdensity' demo from the 'tcltk' package.
 }
@@ -30,13 +28,5 @@ the null hypothesis (mean = 0), and the black line indicates the density
 under the alternative hypothesis.  The vertical blue line indicates the
 significance threshold.
 }
-\references{ 
-}
 \author{ Daniel E. Weeks }
-\note{ }
-
-
-\seealso{ }
-\examples{
-}
 \keyword{ power }

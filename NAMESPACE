@@ -1,0 +1,8 @@
+export(
+fnfam, fx, normplot, nsibs, ntdt, ntdt.q, plotDom, 
+plotNsibs, plotNtdt, ptb, ptdt
+)
+
+import(
+ tcltk
+)

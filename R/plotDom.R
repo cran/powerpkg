@@ -11,9 +11,9 @@ function(lsib=1.2,alpha=0.001,power=0.85,...)
   tb <- rbind(tb,c(l1,nsibs(ls=lsib,lo=l1,alpha,beta)))
  tb <- data.frame(tb)
  colnames(tb) <- c("lambda.off","number.ASP")
- attach(tb)
- plot(lambda.off,number.ASP,type="l",
- main =paste("Required sample size for power =",power,"at alpha =",alpha),...)
+ plot(tb$lambda.off,tb$number.ASP,type="l",
+ main =paste("Required sample size for power =",power,"at alpha =",alpha),
+ xlab="lambda.off",ylab="number.ASP",...)
  return(tb)
 }
 

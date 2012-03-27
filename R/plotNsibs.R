@@ -10,8 +10,7 @@ function(alpha=0.001,power=0.85,...)
   tb <- rbind(tb,c(ls,nsibs(ls,ls,alpha,beta)))
  tb <- data.frame(tb)
  colnames(tb) <- c("lambda.sib","number.ASP")
- attach(tb)
- plot(lambda.sib,number.ASP,type="l",
+ plot(tb$lambda.sib,tb$number.ASP,type="l",xlab="lambda.off",ylab="number.ASP",
  main =paste("Required sample size for power =",power,"at alpha =",alpha),...)
  return(tb)
 }

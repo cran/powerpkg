@@ -32,7 +32,6 @@ the desired power.
  families will have exactly two affected sibpairs; and that (2) the
  identity-by-descent status in the ASPs can be determined unambiguously
 }
-\references{  }
 \author{ Daniel E. Weeks }
 \note{ These are based on a Mathematica notebook created by Martin Farrall. }
 
