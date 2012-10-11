@@ -13,7 +13,8 @@ function(g,q,m,ld,nfam,alpha)
   p1 <- (1 + (g-1)*a1)/(2 + (g-1)*(a1+a2))
   nhp <- nfam*2*h
   s <- sqrt(p1*(1-p1)/nhp)
-  op <- uniroot(fx,c(-4,4),tol=0.0001,n=nhp,alpha=alpha,p1=p1,s=s)  
+  fx.min <- optimize(fx,interval=c(-4,4),n = nhp, alpha = alpha, p1 = p1, s = s)$minimum
+  op <- uniroot(fx,c(-4,fx.min),tol=0.0001,n=nhp,alpha=alpha,p1=p1,s=s)  
   return(list(power=pnorm(op$root),g=g,q=q,m=m,ld=ld,nfam=nfam,alpha=alpha))
 }
 
