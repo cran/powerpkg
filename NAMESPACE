@@ -6,3 +6,8 @@ plotNsibs, plotNtdt, ptb, ptdt
 import(
  tcltk
 )
+
+importFrom("graphics", "legend", "lines", "points")
+importFrom("stats", "dnorm", "optimize", "pnorm", "qnorm", "rexp",
+             "rnorm", "uniroot")
+

@@ -1,7 +1,7 @@
 normplot <- function() {
 ### Interactive density plots. Based on TCL version by Guido Masarotto
 
-require(tcltk) || stop("tcltk support is absent")
+# require(tcltk) || stop("tcltk support is absent")
 local({
     y <- NULL
     x <- seq(-5,8,0.1)
